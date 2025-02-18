@@ -1,4 +1,5 @@
 {{-- @include('partials.search') --}}
+@include('users.partials.hero')
 
 <x-card>
     @unless (count($jobs) == 0)
